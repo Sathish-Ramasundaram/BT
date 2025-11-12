@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(to bottom,
+    rgba(99, 201, 204, 0.9),   /* soft pink with opacity */
+    rgba(117, 173, 175, 0.9),   /* soft blue with opacity */
+    rgba(166, 190, 190, 0.9));    /* soft green with opacity */
+    min-height: 100vh;
+    font-family: sans-serif, Arial ;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    font-weight: bold;
+    justify-content: center;   /* horizontal center */
+    align-items: center;       /* vertical center */
+}
+
+label, input, select, textarea {
+    display: flex;  
+    margin-top: 5px;       
+}
+
+#submit {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    transform: scale(1.1); /* makes button 10% bigger */
+}
+
+.box {
+    border: 2px solid #333; /* width, style, and color */
+    border-radius: 8px;       /* rounded corners */
+    padding: 20px;
+    background: linear-gradient(to bottom,
+    rgba(99, 201, 204, 0.9),   /* soft pink with opacity */
+    rgba(117, 173, 175, 0.9),   /* soft blue with opacity */
+    rgba(166, 190, 190, 0.9));    /* soft green with opacity */
+}
+
+#signOutIn {
+    display: flex;
+    justify-content: center;   /* horizontal center */
+    align-items: center;       /* vertical center */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+span {
+    margin-right: 7px;
+}
+
+#welcomeprofile {
+    position: absolute; /* take it out of normal flow */
+    top: 10px;          /* distance from top */
+    right: 10px;        /* distance from right */
+    text-align: right;
+    line-height: 1;
+
+}
+
+.profile-icon {
+    font-size: 24px;
+}
+
+
+

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Welcome</h1>
+        <div id="welcomeprofile">
+            <p class="profile-icon">👤</p><br>
+            <p class="profile-name" id="welcome"></p>
+            <a href="2login.html">Sign out</a>
+        </div>
+        
+        <script>
+            const name = localStorage.getItem("username");
+            document.getElementById("welcome").textContent = name;
+        </script>
+    </body>
+</html>

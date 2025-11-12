@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Sign Up</h1>
+        <form onsubmit="redirectUser(event)">
+            <div class="box">
+                <label for="fname">First Name: </label>
+                <input type="text" name="fname" id="fname" required>
+                <label for="lname">Last Name: </label>
+                <input type="text" name="lname" id="lname" required>
+                <label for="password">Password: </label>
+                <input type="password" name="password" minlength="8" id="password" required>
+                <label for="country">Country: </label>
+                <select name="country" id="country" required>
+                    <option value="">-- Select Country --</option>
+                    <option value="India">India</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="England">England</option>
+                    <option value="Australia">Australia</option>
+                </select>
+                <label for="mobile">Mobile: </label>
+                <input type="number" name="mobile" maxlength="10"  id="mobie" required>
+                <label for="email">Email ID: </label>
+                <input type="email" name="email" id="username" required>
+                <label for="address">Address: </label>
+                <textarea name="address" rows="4" cols="40" id="address" required></textarea>
+                <input type="submit" value="Submit" id="submit">
+            </div>
+        </form>
+        <div id="signOutIn">
+            <span>Already have account? </span>
+            <a href="2login.html"> Sign in</a>
+        </div>
+
+        <script>
+            function redirectUser(event) {
+                event.preventDefault();
+                const name = document.getElementById("username").value;
+                localStorage.setItem("username", name); // save to localstorage
+                window.location.href = "4welcome.html";
+            }
+        </script>
+    </body>
+</html>
