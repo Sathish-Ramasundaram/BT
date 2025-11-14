@@ -1,6 +1,6 @@
 export default function Projects() {
   return (
-    <section className="projects">
+    <section id="projects" className="projects">
       <h2 className="section-title">My Projects</h2>
       <div className="project-grid">
         <div className="project-card">
@@ -11,7 +11,7 @@ export default function Projects() {
             Tech Stack: HTML, CSS JavaScript 
           </p>
           <a href="https://sathish-ramasundaram.github.io/Project/7DayWithQuote/7calenderwithquotes.html" target="_blank" rel="noopener noreferrer">
-            View Project <i class="fas fa-arrow-right"></i>
+            View Project <i className="fas fa-arrow-right"></i>
           </a>
         </div>
         <div className="project-card">
@@ -23,7 +23,7 @@ export default function Projects() {
             Tech Stack: HTML, Python Flask, SQLite 
             </p>
             <a href="https://dictionary-l2eu.onrender.com/" target="_blank" rel="noopener noreferrer">
-            View Project <i class="fas fa-arrow-right"></i>
+            View Project <i className="fas fa-arrow-right"></i>
             </a>
         </div>
         <div className="project-card">
