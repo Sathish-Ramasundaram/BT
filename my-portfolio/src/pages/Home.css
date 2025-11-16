@@ -1,0 +1,61 @@
+/* Home section layout */
+.home {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  padding: 50px;               /* consistent spacing */
+  display: flex;
+  justify-content: space-between; /* text left, image right */
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Left side text block */
+.text-block {
+  max-width: 600px;
+  margin-top: 300px;
+  margin-left: 100px;
+}
+
+.welcome {
+  font-size: 1.5rem;
+  margin: 0;
+  font-family: serif;
+  font-style: italic;
+}
+
+.name {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px;
+}
+
+.social-icons {
+  margin-top: -50px;
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #0077b5;
+}
+
+/* Profile image pinned to right corner */
+.profile-pic {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 350px;               /* fixed size */
+  max-width: 40%;            /* scales on mobile */
+  height: auto;
+  border-radius: 7%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}

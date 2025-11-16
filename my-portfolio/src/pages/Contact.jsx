@@ -1,4 +1,5 @@
-// src/pages/Contact.jsx
+import "./Contact.css";
+
 import { useState } from "react";
 
 export default function Contact() {

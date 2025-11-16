@@ -1,3 +1,5 @@
+import "./Projects.css";
+
 export default function Projects() {
   return (
     <section id="projects" className="projects">
@@ -16,13 +18,14 @@ export default function Projects() {
         </div>
         <div className="project-card">
           <h5>Personal Dictionary for Adding New Words</h5>
-          <p> A simple functional dictionary web app. It provides input boxes for adding words and 
-            their meanings, with built‑in validation to prevent duplicate entries. All stored words are displayed in 
-            ascending order for easy browsing.  
+          <p> A simple functional dictionary. 
+            It provides input boxes for adding words and their meanings, with built‑in validation to prevent duplicate entries (case‑insensitive). 
+            Users can search for stored words, and if a word is not found, the app prompts them to add it. 
+            All stored words are displayed in ascending order for easy browsing. 
             <br/><br/>
-            Tech Stack: HTML, Python Flask, SQLite 
+            Tech Stack: HTML, Python Flask, PostgreSQL
             </p>
-            <a href="https://dictionary-l2eu.onrender.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://dictionarywithsearch2.onrender.com/" target="_blank" rel="noopener noreferrer">
             View Project <i className="fas fa-arrow-right"></i>
             </a>
         </div>
