@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fixed Example</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      position: fixed;   /* stays fixed */
+      top: 0;            /* stick to top */
+      left: 0;
+      width: 100%;       /* full width */
+      background: lightblue;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .content {
+      margin-top: 80px;  /* space so content doesn’t hide behind header */
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">I am a fixed header</div>
+  <div class="content">
+    <p>Scroll down to see the effect...</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Keep scrolling...</p>
+    <p>Notice the header stays at the top!</p>
+    <p style="margin-bottom:1000px;">Extra space for scrolling.</p>
+  </div>
+</body>
+</html>

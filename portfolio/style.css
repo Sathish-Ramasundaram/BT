@@ -1,0 +1,46 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+header {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    padding: 2vh;
+    font-size: 3vw;
+    height: 6vh;
+}
+
+.Home {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: calc(100vh - 10vh);
+}
+
+.Home_Pic {
+    width: 26vw;
+    height: 82vh;
+    border-radius: 1.5vw;
+    box-shadow: 0 1vw 2vw rgba(12, 11, 11, 0.3);
+}
+
+@media (max-width: 768px) {
+  .Home {
+    flex-direction: column;       /* stack content vertically */
+    align-items: center;          /* center horizontally */
+    justify-content: flex-end;    /* keep image at bottom */
+    height: auto;                 /* let content flow naturally */
+  }
+
+  .Home_Pic {
+    width: 60%;                   /* smaller, relative to parent */
+    height: auto;                 /* keep aspect ratio */
+    border-radius: 4vw;           /* rounder corners on mobile */
+    box-shadow: 0 2vw 4vw rgba(0,0,0,0.3); /* softer shadow */
+    margin-top: 20px;             /* spacing from text above */
+  }
+}

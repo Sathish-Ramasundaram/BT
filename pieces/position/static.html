@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.box {
+  width: 120px;
+  height: 60px;
+  margin: 10px;
+  background: lightblue;
+}
+
+.static {
+  position: static; /* default */
+  top: 50px; /* ❌ ignored */
+  left: 50px; /* ❌ ignored */
+}
+</style>
+</head>
+<body>
+  <div class="box static">Static Box</div>
+  <div class="box">Another Box</div>
+</body>
+</html>

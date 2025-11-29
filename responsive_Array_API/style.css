@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f2ef;
+  padding: 2rem; /* responsive spacing */
+}
+
+.title {
+  font-size: 2rem; /* scales with root font size */
+  margin-bottom: 1.5rem;
+}
+
+.search-box {
+  display: flex;
+  gap: 1rem; /* space between input and button */
+  margin-bottom: 2rem;
+}
+
+.search-box input {
+  width: 20rem;   /* ~320px if root font size is 16px */
+  padding: 0.5rem;
+  border-radius: 1rem; /* rounded corners */
+  border: 1px solid #ccc;
+}
+
+.search-box button {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #0A66C2;
+  color: white;
+  cursor: pointer;
+}

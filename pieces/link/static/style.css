@@ -1,0 +1,20 @@
+.post {
+  border: 1px solid #ccc;
+  border-radius: 1vh;
+  padding: 1vw;
+  margin: 2vh auto;
+  background-color: #fff;
+  width: 48vw;
+}
+
+.actions button {
+  margin-right: 1vw;
+  cursor: pointer;
+}
+.comment-box {
+  margin-top: 1vh;
+}
+.comment-box input {
+  width: 80%;
+  padding: 0.5vh;
+}

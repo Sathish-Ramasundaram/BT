@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Text Size Units</title>
+  <style>
+    html {
+      font-size: 16px; /* default root size */
+    }
+
+    .rem-text {
+      font-size: 2rem; /* 2 × 16px = 32px */
+      color: blue;
+    }
+
+    .percent-text {
+      font-size: 150%; /* 150% of parent font size (16px × 1.5 = 24px) */
+      color: green;
+    }
+
+    .vw-text {
+      font-size: 5vw; /* 5% of viewport width */
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <p class="rem-text">This text uses rem (fixed relative to root font size).</p>
+  <p class="percent-text">This text uses % (relative to parent element).</p>
+  <p class="vw-text">This text uses vw (relative to screen width).</p>
+</body>
+</html>

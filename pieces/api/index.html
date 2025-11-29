@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple API Demo</title>
+  <!-- Viewport meta for mobile scaling -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <h1>Posts from API</h1>
+  <div id="results"></div>
+
+  <!-- Link external JS -->
+  <script>
+    const API_URL = "http://127.0.0.1:5000/api/posts"; // your Flask API
+
+    async function loadPosts() {
+      try {
+        const response = await fetch(API_URL);
+        const posts = await response.json();
+
+        const resultsDiv = document.getElementById("results");
+        resultsDiv.innerHTML = "";
+
+        posts.forEach(post => {
+          const p = document.createElement("p");
+          p.textContent = `${post.author}: ${post.content} (Likes: ${post.likes})`;
+          resultsDiv.appendChild(p);
+        });
+      } catch (error) {
+        console.error("Error loading posts:", error);
+      }
+    }
+
+    // Load posts when page opens
+    window.onload = loadPosts;
+  </script>
+
+</body>
+</html>

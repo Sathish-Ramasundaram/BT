@@ -1,0 +1,9 @@
+Block → New line, full width.
+
+Inline → Same line, only content width.
+
+Inline-block → Same line, but allows width/height control.
+
+Flex → Aligns items in rows/columns.
+
+Grid → Organizes items into rows and columns. 

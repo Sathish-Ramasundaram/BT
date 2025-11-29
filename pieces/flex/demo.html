@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Display Demo</title>
+  <style>
+    .block { display: block; background: lightblue; }
+    .inline { display: inline; background: lightgreen; }
+    .inline-block { display: inline-block; width: 100px; background: lightcoral; }
+    .flex { display: flex; gap: 20px; background: lightgray; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; background: beige; }
+  </style>
+</head>
+<body>
+  <div class="block">Block element</div>
+  <div class="block">Block element2 Test Test Test Test Test Test Test Test Test
+    Block element2 Test Test Test Test Test Test Test Test Test
+    Block element2 Test Test Test Test Test Test Test Test Test
+    Block element2 Test Test Test Test Test Test Test Test Test
+
+  </div>
+  <span class="inline">Inline element</span>
+  <span class="inline">Inline element2Test</span>
+  <span class="inline">Inline element2Test Test Test Test Test Test 
+    Test Test Test Test Test Test Test Test Test
+    Test Test Test Test Test Test Test Test Test
+    Test Test Test Test Test Test Test Test Test
+    Test Test Test Test Test Test Test Test Test
+  </span>
+  <span class="inline-block">Inline-block element</span>
+  <span class="inline-block">Inline-block element2TestTestTest</span>
+  <div class="flex">
+    <div>Flex 1</div><div>Flex 2</div><div>Flex 3</div>
+  </div>
+  <div class="grid">
+    <div>Grid 1</div><div>Grid 2</div><div>Grid 3</div><div>Grid 4</div>
+  </div>
+</body>
+</html>

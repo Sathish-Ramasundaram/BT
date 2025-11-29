@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .history {
+      background: lightyellow;
+      padding: 10px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>My Page</h2>
+
+  <script>
+    // Step 1: Create a new div
+    let historyDiv = document.createElement("div");
+
+    // Step 2: Add some text inside it
+    historyDiv.innerText = "This is a new history section!";
+
+    // Step 3: Give it a class for styling
+    historyDiv.className = "history";
+
+    // Step 4: Add it to the page (append to body)
+    document.body.appendChild(historyDiv);
+  </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Absolute Example</title>
+  <style>
+    .button-container {
+      position: relative; /* parent is positioned */
+      display: inline-block;
+      margin: 50px;
+    }
+
+    .tooltip {
+      position: absolute; /* positioned relative to parent */
+      bottom: 100%;       /* place above the button */
+      left: 50%;          /* center horizontally */
+      transform: translateX(-50%);
+      background: black;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+
+    button {
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="button-container">
+    <button>Hover Me</button>
+    <div class="tooltip">I am a tooltip!</div>
+  </div>
+</body>
+</html>

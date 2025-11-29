@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2 id="balance">Balance: 0</h2>
+  <button onclick="updateBalance()">Add 100</button>
+
+  <script>
+    let balance = 0; // starting balance
+
+    // Function definition
+    function updateBalance() {
+      balance += 100; // increase balance by 100
+      document.getElementById("balance").innerText = "Balance: " + balance;
+    }
+  </script>
+</body>
+</html>

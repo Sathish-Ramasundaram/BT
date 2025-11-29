@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Position Examples</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      height: 2000px; /* extra space for scrolling */
+    }
+
+    .box {
+      width: 150px;
+      height: 80px;
+      background: lightblue;
+      margin: 20px;
+      padding: 10px;
+    }
+
+    /* 1. Static (default) */
+    .static {
+      position: static; /* default, follows normal flow */
+      background: lightgreen;
+    }
+
+    /* 2. Relative */
+    .relative {
+      position: relative;
+      top: 20px;   /* moves down 20px */
+      left: 30px;  /* moves right 30px */
+      background: lightcoral;
+    }
+
+    /* 3. Absolute */
+    .absolute {
+      position: absolute;
+      top: 100px;   /* positioned relative to <body> (no parent positioned) */
+      left: 200px;
+      background: orange;
+    }
+
+    /* 4. Fixed */
+    .fixed {
+      position: fixed;
+      bottom: 10px;  /* sticks to bottom of viewport */
+      right: 10px;
+      background: violet;
+    }
+
+    /* 5. Sticky */
+    .sticky {
+      position: sticky;
+      top: 0; /* sticks to top when scrolling */
+      background: yellow;
+    }
+  </style>
+</head>
+<body>
+  <div class="box static">Static</div>
+  <div class="box relative">Relative</div>
+  <div class="box absolute">Absolute</div>
+  <div class="box sticky">Sticky (scroll down)</div>
+  <div class="box fixed">Fixed (bottom-right)</div>
+</body>
+</html>

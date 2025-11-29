@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      background: lightblue;
+      padding: 20px;
+      transition: 0.3s; /* smooth effect */
+    }
+    .btn {
+      margin-top: 20px;
+      padding: 10px 15px;
+      background: darkblue;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background: rgb(0, 128, 38);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p>Hello Sathish! I am inside the container.</p>
+  </div>
+
+  <!-- Button to trigger style change -->
+  <button class="btn" id="changeBtn">Change Container Style</button>
+
+  <script>
+    // Select the container and button
+    const container = document.querySelector(".container");
+    const button = document.getElementById("changeBtn");
+
+    // Add click event to button
+    button.addEventListener("click", () => {
+      // Toggle background color
+      if (container.style.background === "lightblue") {
+        container.style.background = "lightgreen";
+        container.style.color = "darkgreen";
+        container.innerHTML += "<p>Style changed to green!</p>";
+      } else {
+        container.style.background = "lightblue";
+        container.style.color = "black";
+        container.innerHTML += "<p>Style changed back to blue!</p>";
+      }
+    });
+  </script>
+</body>
+</html>

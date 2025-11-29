@@ -3,19 +3,22 @@
   position: relative;
   height: 100vh;
   width: 100%;
-  padding: 50px;               /* consistent spacing */
+  padding: 50px 20px;               /* consistent spacing */
   display: flex;
   justify-content: space-between; /* text left, image right */
   align-items: center;
+  flex-wrap: wrap;
   box-sizing: border-box;
-  margin: 0;
 }
 
 /* Left side text block */
 .text-block {
+  flex: 1;
   max-width: 600px;
-  margin-top: 300px;
-  margin-left: 100px;
+  margin: 0;
+  position: relative;
+  top: 90px;
+  left: 150px;
 }
 
 .welcome {
@@ -33,7 +36,7 @@
 }
 
 .social-icons {
-  margin-top: -50px;
+  margin-top: 20px;
   display: flex;
   gap: 20px;
 }
@@ -51,11 +54,43 @@
 /* Profile image pinned to right corner */
 .profile-pic {
   position: absolute;
-  bottom: 0px;
-  right: 0px;
-  width: 350px;               /* fixed size */
-  max-width: 40%;            /* scales on mobile */
+  bottom: 0;
+  right: 0;
+  flex: 1;
+  max-width: 350px;  
+  width: 100%;  
   height: auto;
   border-radius: 7%;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 900px) {
+  .home {
+    flex-direction: column;       /* ✅ stack text above image */
+    text-align: center;
+    padding: 30px 15px;
+  }
+
+  .text-block {
+    top: 20px;   /* smaller push down */
+    left: 0;     /* center on mobile */
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .name {
+    font-size: 2.5rem;            /* smaller heading on mobile */
+  }
+
+  .profile-pic {
+    position: static;
+    max-width: 200px;             /* shrink image */
+    margin-top: 20px;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .social-icons {
+    justify-content: center;      /* center icons */
+  }
 }

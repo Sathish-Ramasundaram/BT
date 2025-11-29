@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <script>
+    // Step 1: Save some transactions into localStorage
+    let sampleData = JSON.stringify([
+      { id: 1, amount: 100 },
+      { id: 2, amount: 200 }
+    ]);
+    localStorage.setItem("transactions", sampleData);
+
+    // Step 2: Retrieve them safely
+    let transactions = JSON.parse(localStorage.getItem("transactions")) || [];
+
+    console.log(transactions);
+    // Output: [ { id: 1, amount: 100 }, { id: 2, amount: 200 } ]
+
+    // Step 3: If nothing stored yet
+    localStorage.removeItem("transactions");
+    let emptyTransactions = JSON.parse(localStorage.getItem("transactions")) || [];
+    console.log(emptyTransactions); // Output: []
+  </script>
+</body>
+</html>

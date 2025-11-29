@@ -1,0 +1,39 @@
+
+.sidebar {
+  position: fixed;       /* stays fixed on the left */
+  top: 11vh;
+  left: 6vw;
+  width: 15vw;           /* sidebar width */
+  height: 100vh;         /* full height of screen */
+  display: flex;
+  flex-direction: column;/* stack boxes vertically */
+  background-color: #be2b2b;
+  gap: 2vh;
+}
+
+.box1, .box23, .box4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 0.1vw solid #ccc;
+  border-radius: 1vh;
+}
+
+.box1 {
+  width: 17vw;
+  margin: 0.5vh 0;
+  height: 30vh;
+}
+
+.box23 {
+  height: 12vh;
+  width: 17vw;
+  margin: 0.5vh 0;
+}
+
+.box4 {
+  width: 17vw;
+  margin: 0.5vh 0;
+  height: 20vh;
+}

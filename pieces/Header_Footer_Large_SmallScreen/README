@@ -1,0 +1,7 @@
+On desktop/laptop screens (>768px) → you’ll see only the blue header with text: “This is desktop version”.
+
+On mobile/small screens (≤768px) → the desktop header disappears, and you’ll see:
+
+Green header with text: “this is”
+
+Coral footer with text: “mobile version”
