@@ -6,6 +6,22 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
+@app.route("/mynetwork")
+def mynetwork():
+    return render_template("mynetwork.html")
+
+@app.route("/jobs")
+def jobs():
+    return render_template("jobs.html")
+
+@app.route("/messaging")
+def messaging():
+    return render_template("messaging.html")
+
+@app.route("/notifications")
+def notifications():
+    return render_template("notifications.html")
+
 @app.route('/api/posts')
 def get_posts():
     return jsonify([

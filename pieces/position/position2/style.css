@@ -1,0 +1,28 @@
+.sidebar {
+    position: relative;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    background: #b13333;
+    overflow-y: auto;
+}
+
+.top-img {
+  height: 90vh;            /* takes most of the space */
+  width: 15vw;
+  object-fit: fill;
+  margin: 0 auto;
+}
+
+.sticky-wrapper {
+  margin: 20vh auto 100vh auto; /* spacing around */
+  width: 15vw;
+}
+
+.sticky-img {
+    height: 20vh;
+    width: 15vw;
+    object-fit: fill;
+    position: sticky;
+    top: 0;
+}

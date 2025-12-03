@@ -6,6 +6,17 @@ export default function Projects() {
       <h2 className="section-title">My Projects</h2>
       <div className="project-grid">
         <div className="project-card">
+          <h5>Digital Clock</h5>
+          <p>The clock shows the current time in a 12‑hour format with AM/PM, updating live every second.
+            <br/><br/>
+            Tech Stack: HTML, CSS, JavaScript
+          </p>
+          <a href="https://sathish-ramasundaram.github.io/InlighnX/Digital%20Clock/index.html" target="_blank" rel="noopener noreferrer">
+            View Project <i className="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div className="project-card">
           <h5>Daily Quotes by Day and Date</h5>
           <p>A web app that displays a quote based on the current day of the week. 
             It dynamically updates the quote, date and day name. 
@@ -16,6 +27,20 @@ export default function Projects() {
             View Project <i className="fas fa-arrow-right"></i>
           </a>
         </div>
+
+        <div className="project-card">
+          <h5>Expense Tracker</h5>
+          <p>A simple, interactive app that helps users manage their finances. 
+            It allows adding income and expense transactions, automatically updates the balance, and displays a transaction history with delete options. 
+            Data is stored in localStorage, ensuring persistence even after refreshing or reopening the browser. 
+            <br/><br/>
+            Tech Stack: HTML, CSS JavaScript 
+          </p>
+          <a href="https://sathish-ramasundaram.github.io/InlighnX/Expense%20Tracker/index.html" target="_blank" rel="noopener noreferrer">
+            View Project <i className="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
         <div className="project-card">
           <h5>Personal Dictionary for Adding New Words</h5>
           <p> A simple functional dictionary. 
@@ -29,10 +54,7 @@ export default function Projects() {
             View Project <i className="fas fa-arrow-right"></i>
             </a>
         </div>
-        <div className="project-card">
-          <h5>Store </h5>
-          <p></p>
-        </div>
+
       </div>
     </section>
   );
