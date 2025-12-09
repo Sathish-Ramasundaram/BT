@@ -12,7 +12,7 @@ export default function About() {
             Hello there, I am Sathish. <br/><br/>
             I am an aspiring Web Developer, currently building expertise in front‑end technologies to contribute to real‑world projects with a user‑focused approach. Backed by 5 years of experience in sales and customer support, I bring strong analytical problem‑solving skills, effective client communication, and the ability to adapt quickly to new technologies.
           </p>
-          <a href="/doc/SATHISH R 6.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">
+          <a href="/doc/SATHISH R 7.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">
           View Resume
           </a>
         </div>
