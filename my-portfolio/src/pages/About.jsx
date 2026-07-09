@@ -10,9 +10,9 @@ export default function About() {
         <div className="about-right">
           <p className="about-text">
             Hello there, I am Sathish. <br/><br/>
-            I am an aspiring Web Developer, currently building expertise in front‑end technologies to contribute to real‑world projects with a user‑focused approach. Backed by 5 years of experience in sales and customer support, I bring strong analytical problem‑solving skills, effective client communication, and the ability to adapt quickly to new technologies.
+            Aspiring Full Stack Developer with hands-on Front-End Development internship experience building React applications, Storybook components, and Cypress tests. Skilled in HTML, CSS, JavaScript, TypeScript, Tailwind CSS, Hasura, and SQL. Brings 5+ years of customer-facing experience with strong problem-solving and collaboration skills.
           </p>
-          <a href="/doc/SATHISH R 7.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">
+          <a href="/doc/SATHISH_R_10.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">
           View Resume
           </a>
         </div>
