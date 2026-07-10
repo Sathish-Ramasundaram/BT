@@ -6,12 +6,12 @@ export default function Projects() {
       <h2 className="section-title">My Projects</h2>
       <div className="project-grid">
         <div className="project-card">
-          <h5>Digital Clock</h5>
-          <p>The clock shows the current time in a 12‑hour format with AM/PM, updating live every second.
+          <h5>Online Shopping</h5>
+          <p>A Web app for a provisional store.  
             <br/><br/>
-            Tech Stack: HTML, CSS, JavaScript
+            Tech Stack: React
           </p>
-          <a href="https://sathish-ramasundaram.github.io/InlighnX/Digital%20Clock/index.html" target="_blank" rel="noopener noreferrer">
+          <a href="" target="_blank" rel="noopener noreferrer">
             View Project <i className="fas fa-arrow-right"></i>
           </a>
         </div>
@@ -19,9 +19,9 @@ export default function Projects() {
         <div className="project-card">
           <h5>Daily Quotes by Day and Date</h5>
           <p>A web app that displays a quote based on the current day of the week. 
-            It dynamically updates the quote, date and day name. 
+            It dynamically updates the quote, date, and day name. 
             <br/><br/>
-            Tech Stack: HTML, CSS JavaScript 
+            Tech Stack: HTML, CSS, JavaScript 
           </p>
           <a href="https://sathish-ramasundaram.github.io/Project/7DayWithQuote/7calenderwithquotes.html" target="_blank" rel="noopener noreferrer">
             View Project <i className="fas fa-arrow-right"></i>
@@ -34,7 +34,7 @@ export default function Projects() {
             It allows adding income and expense transactions, automatically updates the balance, and displays a transaction history with delete options. 
             Data is stored in localStorage, ensuring persistence even after refreshing or reopening the browser. 
             <br/><br/>
-            Tech Stack: HTML, CSS JavaScript 
+            Tech Stack: HTML, CSS, JavaScript 
           </p>
           <a href="https://sathish-ramasundaram.github.io/InlighnX/Expense%20Tracker/index.html" target="_blank" rel="noopener noreferrer">
             View Project <i className="fas fa-arrow-right"></i>
