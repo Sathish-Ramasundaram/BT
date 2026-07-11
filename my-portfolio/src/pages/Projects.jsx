@@ -11,7 +11,7 @@ export default function Projects() {
             <br/><br/>
             Tech Stack: React
           </p>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://srs-store-react2.vercel.app/" target="_blank" rel="noopener noreferrer">
             View Project <i className="fas fa-arrow-right"></i>
           </a>
         </div>
