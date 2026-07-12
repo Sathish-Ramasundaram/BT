@@ -6,10 +6,11 @@ export default function Projects() {
       <h2 className="section-title">My Projects</h2>
       <div className="project-grid">
         <div className="project-card">
-          <h5>Online Shopping</h5>
-          <p>A Web app for a provisional store.  
+          <h5>Store Website</h5>
+          <p>  A responsive bilingual store website for Sri Ramajeyam Stores, built by converting an existing plain HTML, CSS, and JavaScript site into a modern React application. 
+            The site includes a mirrored home page with header navigation, Tamil/English language toggle, and theme toggle, hero section, about section, offerings, customer reviews, location map, and footer.  
             <br/><br/>
-            Tech Stack: React
+            Tech Stack: React, TypeScript, Rspack, Tailwind CSS, Yarn, Storybook, HTML, CSS, JavaScript, Vercel
           </p>
           <a href="https://srs-store-react2.vercel.app/" target="_blank" rel="noopener noreferrer">
             View Project <i className="fas fa-arrow-right"></i>
