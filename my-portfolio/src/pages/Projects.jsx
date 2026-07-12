@@ -7,8 +7,8 @@ export default function Projects() {
       <div className="project-grid">
         <div className="project-card">
           <h5>Store Website</h5>
-          <p>  A responsive bilingual store website for Sri Ramajeyam Stores, built by converting an existing plain HTML, CSS, and JavaScript site into a modern React application. 
-            The site includes a mirrored home page with header navigation, Tamil/English language toggle, and theme toggle, hero section, about section, offerings, customer reviews, location map, and footer.  
+          <p>  A responsive bilingual store website for Sri Ramajeyam Stores. 
+            The site includes a home page with header navigation, Tamil/English language toggle, and theme toggle, hero section, about section, offerings, customer reviews, location map, and footer.  
             <br/><br/>
             Tech Stack: React, TypeScript, Rspack, Tailwind CSS, Yarn, Storybook, HTML, CSS, JavaScript, Vercel
           </p>
