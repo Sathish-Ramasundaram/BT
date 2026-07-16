@@ -49,9 +49,9 @@ export default function Projects() {
             Users can search for stored words, and if a word is not found, the app prompts them to add it. 
             All stored words are displayed in ascending order for easy browsing. 
             <br/><br/>
-            Tech Stack: HTML, Python Flask, PostgreSQL
+            Tech Stack: React, PostgreSQL
             </p>
-            <a href="https://dictionarywithsearch2.onrender.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://srs-dictionary.vercel.app/" target="_blank" rel="noopener noreferrer">
             View Project <i className="fas fa-arrow-right"></i>
             </a>
         </div>
